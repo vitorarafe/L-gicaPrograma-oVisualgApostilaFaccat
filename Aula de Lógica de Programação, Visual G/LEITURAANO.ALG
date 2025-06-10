@@ -1,18 +1,18 @@
 Algoritmo "LeituraAno"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jailson Costa (Obama)
-// Descrição   : Esse comando lê o ano de nascimento e o ano atual do usúario
-//e responde se ele pode votar ou não dependendo da imagem
+// DescriÃ§Ã£o   : Esse comando lÃª o ano de nascimento e o ano atual do usÃºario
+//e responde se ele pode votar ou nÃ£o dependendo da idade
 // Autor(a)    : Vitor De Araujo Ferreira
 // Data atual  : 20/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    anoDeNascimento, anoAtual, calcPodeVotar: inteiro
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval ("Algoritmo: Validação de voto")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval ("Algoritmo: ValidaÃ§Ã£o de voto")
    Escreval ("Digite o ano atual: ")
    Leia (anoAtual)
    Escreval ("Digite o ano de nascimento: ")
@@ -23,7 +23,7 @@ Inicio
    se calcPodeVotar >=16 entao
       escreva ("pode votar!")
    senao
-      escreva("Não pode votar!")
+      escreva("NÃ£o pode votar!")
    fimse
 
 Fimalgoritmo
