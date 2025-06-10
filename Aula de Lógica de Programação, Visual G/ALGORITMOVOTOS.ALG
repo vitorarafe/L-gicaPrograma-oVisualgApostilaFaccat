@@ -1,11 +1,11 @@
 Algoritmo "AlgoritmoVotos"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jailson Costa (Obama)
-// Descrição   : Algoritmo para ler o total de votos e dividir em porcentagens
+// DescriÃ§Ã£o   : Algoritmo para ler o total de votos e dividir em porcentagens
 // Autor(a)    : Vitor De Araujo Ferreira
 // Data atual  : 17/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    totalVotos: inteiro
    votosNulos: inteiro
    votosBrancos: inteiro
@@ -16,8 +16,8 @@ Var
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Digite o número total de votos da sua cidade: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite o nÃºmero total de votos da sua cidade: ")
    Leia (totalVotos)
    Escreva ("Digite a quantidade de votos nulos: ")
    Leia (votosNulos)
@@ -25,11 +25,11 @@ Inicio
    Leia (votosBrancos)
    porcentagemNulos<-votosNulos/totalVotos*100
    porcentagemBrancos<-votosBrancos/totalVotos*100
-   porcentagemValidos<-totalVotos-(votosNulos+votosBrancos)
+   votosValidos<-totalVotos-(votosNulos+votosBrancos)
    porcentagemValidos<-votosValidos/totalVotos*100
-   Escreval("A porcentagem dos votos é:", porcentagemNulos, "%")
-   Escreval ("A porcentagem dos votos brancos  é:", porcentagemBrancos, "%")
-   Escreval ("A porcentagem dos votos validos é:", votosValidos, "%")
+   Escreval("A porcentagem dos votos Ã©:", porcentagemNulos, "%")
+   Escreval ("A porcentagem dos votos brancos  Ã©:", porcentagemBrancos, "%")
+   Escreval ("A porcentagem dos votos validos Ã©:", porcentagemValidos, "%")
 
 
 Fimalgoritmo
